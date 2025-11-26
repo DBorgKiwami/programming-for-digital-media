@@ -1,0 +1,235 @@
+/* Used on the Project page. Holds Content and Images */
+
+.projectwrapper{
+    display:grid;
+    grid-template-areas:
+    "img1 content"
+    "img2 content"
+    "img3 content";
+    grid-template-columns: 1fr 2fr;
+    padding: 10px;
+    gap: 10px;
+    background-color: gray;
+    width: 70%;
+    margin:0 auto;
+}
+
+#headimage{
+    transition: opacity 0.5s;
+}
+
+/* Unique Image classes for the project page */
+.image1{
+    grid-area:img1;
+}
+
+.image2{
+    grid-area:img2;
+}
+
+.image3{
+    grid-area:img3;
+}
+
+/* Content for the project page */
+.projectcontent{
+    grid-area:content;
+    padding:10px;
+    background-color: lightgray;
+    align-content: center;
+    text-align: center;
+}
+
+/* Used for the Navbar at the top of the page */
+.header{
+    width:100%;
+    position:fixed;
+    display:flex;
+    background-color: antiquewhite;
+    padding:0px;
+    margin: 0;
+    z-index: 10;
+    justify-content:space-between ;
+}
+
+/* Used for navbar buttons at the top of the page */
+.header a{
+    display: block;
+    background-color: brown;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color:black;
+    text-decoration: none;
+    transition: 0.3s;
+    width: 24vw;
+    border-radius: 16px;
+    font-weight: bold;
+}
+
+.header a:hover{
+    display: block;
+    background-color: rgb(167, 89, 89);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    color:black;
+    text-decoration: none;
+    width: 32vw;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+    display:grid;
+    padding: 10px;
+    margin: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 10px;
+}
+
+.mapitem {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    align-content: center;
+}
+
+.playertile {
+    border: 4px dotted;
+    border-color: black;
+    height: 242px;
+    width: 242px;
+}
+
+.forest {
+    background-color: green;
+}
+
+.dungeon {
+    background-color: gray;
+}
+
+.town {
+    background-color: lightgoldenrodyellow;
+}
+
+/* Wrapper which contains all the content on the homepage */
+.homepagecontainer{
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+/* Used for the title of the homepage */
+.homepageheader{
+    display: flex;
+    width:100%;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(220, 209, 197);
+    justify-content: center;
+}
+
+.homepageheader img{
+    display: block;
+    margin: 20px;
+    width:15%;
+}
+
+/* Contains all the text in the title on the homepage */
+.homepageheadertext{
+    width: auto;
+    margin:0;
+}
+
+
+.flexboxdiv{
+    display: flex;
+    gap: 12px;
+}
+
+/* Body section of the homepage */
+.homepagebody{
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 8fr 5fr;
+}
+
+/* The title at the top of every page, containing the logo and what page you're on */
+.pagetop{
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 10px;
+    padding-top: 70px;
+    margin-top: 0px;
+    background-color: antiquewhite;
+}
+
+.pagetitleimg{
+    grid-column: 1;
+    margin-right: 20px;
+    position: relative;
+    align-self: center;
+}
+
+.pagetitleimg img{
+    width: 100%;
+}
+
+.pagetitle{
+    grid-column: 2;
+    background-color: darkred;
+    color: antiquewhite;
+    text-align: center;
+    align-content: center;
+    border-radius: 16px;
+}
+
+/* Used for the top of the form and the project page */
+.formheading{
+    display: block;
+    text-align: center;
+    background-color: tomato;
+    padding: 10px;
+}
+
+/* Holds the form */
+.formwrapper{
+    display:flex;
+    justify-content: center;
+    padding:10px;
+    margin:0 auto;
+    background-color: antiquewhite;
+}
+
+/* Holds the contact information in the contact page */
+.contactwrapper{
+    padding:10px;
+    background-color: pink;
+}
+
+/* .socialmediacontainer{
+    display: block;
+} */
+
+/* .imagewrapper img{
+    width: 100%;
+} */
+
+.projectimage{
+    width:100%;
+    position:relative;
+}
+
+.projectimage img{
+    width:100%;
+}
+
+body{
+    margin:0px;
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

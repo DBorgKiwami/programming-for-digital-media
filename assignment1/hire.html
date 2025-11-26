@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head content -->
+    <head>
+        <title>Daniel Borg's Portfoliio (Hire Me!)</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+    </head>
+    <body>
+        <!-- Navigation bar at the top of the page. -->
+        <div class="header">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="hire.html">Hire Me!</a>
+        </div>
+        <!-- Page header. Contains title and an image, indicating what page you're on. -->
+        <div class="pagetop">
+            <div class="pagetitleimg"><img id="headimage" src="images/fox.webp" alt="An image of a fox from Minecraft"></div>
+            <h1 class="pagetitle">Daniel Borg's Portfolio Site - Hire Me!</h1>
+        </div>
+        <!-- Everything prior to this is boilerplate stuff -->
+        <div class="formheading">
+            <h1>Contact Me</h1>
+            <p>Use this form to send a request/query!</p>
+        </div>
+        <!-- The form that will be used to contact the owner -->
+        <div class="formwrapper">
+            <form>
+                <p><label for="name">Name:</label></p>
+                <p><input type="text" id="name"></p>
+                <p><label for="subject">Subject:</label></p>
+                <p><input type="text" id="subject"></p>
+                <p><label for="email">Email:</label></p>
+                <p><input type="text" id="email"></p>
+                <p><label for="content">Content:</label></p>
+                <p><textarea id="content" name="content" rows="4" cols="30"></textarea></p>
+                <p><input type="submit" value="Submit"></p>
+            </form>
+        </div>
+        <script src="slideshow.js"></script>
+    </body>
+</html>

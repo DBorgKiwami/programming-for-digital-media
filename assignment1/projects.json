@@ -1,0 +1,53 @@
+{
+    "dbpuzzle": {
+        "content":"Lorem Ipsum",
+        "images": [
+            {
+                "imagesrc" : "images/fox.webp",
+                "imagealt": "An image of a fox from minecraft. Used as a placeholder throughout this website."
+            },
+            {
+                "imagesrc" : "images/fox.webp",
+                "imagealt": "An image of a fox from minecraft. Used as a placeholder throughout this website."
+            },
+            {
+                "imagesrc" : "images/fox.webp",
+                "imagealt": "An image of a fox from minecraft. Used as a placeholder throughout this website."
+            }
+        ]
+    },
+    "utdls": {
+        "content":"Lorem Ipsum 2 3 4",
+        "images": [
+            {
+                "imagesrc" : "images/snow_fox.webp",
+                "imagealt": "An image of a snow fox from minecraft. Used as a placeholder throughout this website."
+            },
+            {
+                "imagesrc" : "images/snow_fox.webp",
+                "imagealt": "An image of a snow fox from minecraft. Used as a placeholder throughout this website."
+            },
+            {
+                "imagesrc" : "images/snow_fox.webp",
+                "imagealt": "An image of a snow fox from minecraft. Used as a placeholder throughout this website."
+            }
+        ]
+    },
+    "lorem":{
+        "content":"<h1>Lorem Ipsum</h1><p>Lorem Dimsum but awawawawa look im typing theres so many words look at all the words woah did you know they even made this many words i didnt so anyways i started blasting bang bang bang more words more words i kept saying words because for some reason i couldnt be bothered to just search up Lorem Ipsum generator again because i dunno my internet wasnt so great? i dont really have an excuse but look lorem ipsum lorem ipsum</p><p>Would you look at that another paragragh i didn't even know they made those holy moly woah woah wawawawawawawawa among us among us mroe words words words words wrofs wrods</p><p>And further more, words there are more words. would you look at all these words did you know words are in the dictionary?</p>",
+        "images": [
+            {
+                "imagesrc" : "images/fox.webp",
+                "imagealt": "An image of a fox from minecraft. Used as a placeholder throughout this website."
+            },
+            {
+                "imagesrc" : "images/snow_fox.webp",
+                "imagealt": "An image of a snow fox from minecraft. Used as a placeholder throughout this website."
+            },
+            {
+                "imagesrc" : "images/fox.webp",
+                "imagealt": "An image of a fox from minecraft. Used as a placeholder throughout this website."
+            }
+        ]
+    }
+}

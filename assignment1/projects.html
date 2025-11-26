@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Head content -->
+    <head>
+        <title>Daniel Borg's Portfoliio (Hire Me!)</title>
+        <meta charset="utf-8">
+        <!-- One global CSS style sheet for the whole site. I'm lazy. -->
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
+    </head>
+    <body>
+        <!-- Navigation bar at the top of the page. -->
+        <div class="header">
+            <a href="index.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="hire.html">Hire Me!</a>
+        </div>
+        <!-- Page header. Contains title and an image, indicating what page you're on. -->
+        <div class="pagetop">
+            <div class="pagetitleimg"><img id="headimage" src="images/fox.webp" alt="An image of a fox from Minecraft"></div>
+            <h1 class="pagetitle">Daniel Borg's Portfolio Site - Projects</h1>
+        </div>
+        <!-- Contains project details and information.
+        Controlled via the dropdown menu which changes
+        the content of the div/images -->
+        <!-- Dropdown menu which lists projects i've worked on -->
+        <div class="formwrapper">
+            <select name="projectselector" id="projectselector">
+                <option value="dbpuzzle">Database Integrated Puzzle Game</option>
+                <option value="utdls">UTDLS</option>
+                <option value="lorem">Lorem Ipsum</option>
+            </select>
+        </div>
+        <!-- The part of the website which dynamically changes depending on the option selected from the dropdown menu.
+        Also known as "Daniel tries really hard for thsoe 5 deferred marks" -->
+        <div class="projectwrapper">
+            <!-- This is replaced by the text stored in the json file -->
+            <div class="projectcontent" id="projectcontent"> asfdo;h sdofh a ifghgs ;doihgjokd fh ggdorithd;oighgo;serhgs hergpoisherg ;skjergokshergoiesnhpiog hdoig useoig hs;ergjs;oldgjvbjxpoifdgnsok rrjgsoergj s;lkfgj;xkfdghx;odfjgpxoidfjgspdfjg soj dg[koskjdfgoisjdo[igj sdpiugrhs oidgh </div>
+            <!-- Sources and alt for these are replaced from the references stored in the JSON -->
+            <div class="image1 projectimage"><img src="images/fox.webp" alt="An image of a fox from Minecraft" id="image1"></div>
+            <div class="image2 projectimage"><img src="images/fox.webp" alt="An image of a fox from Minecraft" id="image2"></div>
+            <div class="image3 projectimage"><img src="images/fox.webp" alt="An image of a fox from Minecraft" id="image3"></div>
+        </div>
+    <!-- The Script this page uses. -->
+    <script src="projectpage.js"></script>
+    <script src="slideshow.js"></script>
+    </body>
+</html>
