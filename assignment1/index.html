@@ -3,7 +3,7 @@
     <!-- Head content -->
     <head>
         <title>Daniel Borg's Portfoliio (Hire Me!)</title>
-        <meta charset="utf-8">
+        <meta charset="utf-8" http-equiv="Content-Security-Policy" content="default-src 'self' https://api.weatherapi.com">
         <link rel="stylesheet" type="text/css" href="portfolio.css">
     </head>
     <body>
@@ -27,6 +27,7 @@
                 <div class="homepageheadertext">
                     <h1>Daniel Borg (he/they)</h1>
                     <p>Maltese <a href="programmingassignment.html">Borg</a> software developer/programmer/general computer person!</p>
+                    <p>The current weather in Dublin is <em id="output"></em></p>
                 </div>
             </div>
             <!-- Homepage body, divided by grid into two columns, a main body and a side part to list personal interests and affectations. -->
@@ -58,6 +59,6 @@ Nunc rhoncus urna vitae lorem venenatis venenatis. Nulla imperdiet mattis quam, 
             </div>
         </div>
     <script src="slideshow.js"></script>
+    <script src="weather.js"></script>
     </body>
-
 </html>
